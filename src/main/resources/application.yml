@@ -1,0 +1,55 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: api-gateway
+  security:
+    user:
+      name: none
+      password: none
+  cloud:
+    gateway:
+      routes:
+        - id: employee-service
+          uri: lb://EMPLOYEE-SERVICE
+          predicates:
+            - Path=/employee/**
+          filters:
+            - AuthenticationFilter
+
+        - id: leave-service
+          uri: lb://LEAVE-SERVICE
+          predicates:
+            - Path=/leave/**
+          filters:
+            - AuthenticationFilter
+
+        - id: notification-service
+          uri: lb://NOTIFICATION-SERVICE
+          predicates:
+            - Path=/notification/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    enabled: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka/
+
+
+
+
+jwt:
+  secret: 367569335328362624363687978362922442632278744

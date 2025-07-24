@@ -1,0 +1,22 @@
+2025-07-24 00:03:24.694 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:08:24.772 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:13:24.777 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:18:24.784 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:23:24.804 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:28:24.806 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:33:24.824 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:38:24.831 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:43:24.846 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:48:24.854 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:53:24.871 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 00:58:24.875 [AsyncResolver-bootstrap-executor-%d] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 01:00:57.939 [SpringApplicationShutdownHook] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application API-GATEWAY with eureka with status DOWN
+2025-07-24 01:00:57.941 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1753299057941, current=DOWN, previous=UP]
+2025-07-24 01:00:57.941 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/Mittal:api-gateway:8765: registering service...
+2025-07-24 01:00:57.994 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/Mittal:api-gateway:8765 - registration status: 204
+2025-07-24 01:00:58.029 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.netty.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-24 01:00:58.057 [netty-shutdown] INFO  org.springframework.boot.web.embedded.netty.GracefulShutdown - Graceful shutdown complete
+2025-07-24 01:01:00.188 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-07-24 01:01:03.206 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-07-24 01:01:03.284 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/Mittal:api-gateway:8765 - deregister  status: 200
+2025-07-24 01:01:03.284 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
